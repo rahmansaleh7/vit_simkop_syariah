@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_simkop_syariah_simkop_syariah,simkop_syariah.simkop_syariah,model_simkop_syariah_simkop_syariah,,1,0,0,0

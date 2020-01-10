@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="simkop_syariah.list">
+      <field name="name">simkop_syariah list</field>
+      <field name="model">simkop_syariah.simkop_syariah</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="simkop_syariah.action_window">
+      <field name="name">simkop_syariah window</field>
+      <field name="res_model">simkop_syariah.simkop_syariah</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="simkop_syariah.action_server">
+      <field name="name">simkop_syariah server</field>
+      <field name="model_id" ref="model_simkop_syariah_simkop_syariah"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="simkop_syariah" id="simkop_syariah.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="simkop_syariah.menu_1" parent="simkop_syariah.menu_root"/>
+    <menuitem name="Menu 2" id="simkop_syariah.menu_2" parent="simkop_syariah.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="simkop_syariah.menu_1_list" parent="simkop_syariah.menu_1"
+              action="simkop_syariah.action_window"/>
+    <menuitem name="Server to list" id="simkop_syariah" parent="simkop_syariah.menu_2"
+              action="simkop_syariah.action_server"/>
+    -->
+  </data>
+</odoo>
